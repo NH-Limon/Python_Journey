@@ -52,3 +52,7 @@
 import MyPythonPackage.mod1 as m1
 # print(sum(100, 20))
 m1.showAge()
+print(m1.showAddress("Barishal"))
+
+from MyPythonPackage.mod1 import showAddress
+print(showAddress("Bangladesh"))
